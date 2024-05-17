@@ -4,6 +4,8 @@ function App() {
   const [cards, setCards] = useState([]);
   const [removeAll,setRemoveAll] = useState(false);
 
+  console.log(removeAll,"is throwing error ");
+
 
   //  when the cards length reaches to 9 then mark the remove flag true
   const addItem = (item) =>{
